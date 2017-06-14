@@ -1,0 +1,399 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend2
+  namespace: demo
+  labels:
+    role: frontend
+spec:
+  containers:
+      - name: client1
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client2
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client3
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client4
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client5
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client6
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend3
+  namespace: demo
+  labels:
+    role: frontend
+spec:
+  containers:
+      - name: client1
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client2
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client3
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client4
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client5
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client6
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend4
+  namespace: demo
+  labels:
+    role: frontend
+spec:
+  containers:
+      - name: client1
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client2
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client3
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client4
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client5
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client6
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend5
+  namespace: demo
+  labels:
+    role: frontend
+spec:
+  containers:
+      - name: client1
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client2
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client3
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client4
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client5
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client6
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend6
+  namespace: demo
+  labels:
+    role: frontend
+spec:
+  containers:
+      - name: client1
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client2
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client3
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client4
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client5
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client6
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend7
+  namespace: demo
+  labels:
+    role: frontend
+spec:
+  containers:
+      - name: client1
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client2
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client3
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client4
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client5
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client6
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend8
+  namespace: demo
+  labels:
+    role: frontend
+spec:
+  containers:
+      - name: client1
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client2
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client3
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client4
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client5
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client6
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend9
+  namespace: demo
+  labels:
+    role: frontend
+spec:
+  containers:
+      - name: client1
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client2
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client3
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client4
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client5
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client6
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend10
+  namespace: demo
+  labels:
+    role: frontend
+spec:
+  containers:
+      - name: client1
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client2
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client3
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client4
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client5
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client6
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend11
+  namespace: demo
+  labels:
+    role: frontend
+spec:
+  containers:
+      - name: client1
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client2
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client3
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client4
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client5
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
+      - name: client6
+        image: bvandewa/kubecon17eu-client
+        env:
+        - name: BACKEND
+          value: "backend"
